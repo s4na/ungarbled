@@ -11,7 +11,7 @@ jobs:
         - '2.6'
         gemfile:
         # - 'gemfiles/rails_4.gemfile'
-        - 'gemfiles/rails_5.gemfile'
+        - 'gemfiles/rails_5_1.gemfile'
     steps:
     - uses: actions/checkout@v3
     - name: Set up Ruby
